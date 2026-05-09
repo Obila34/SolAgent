@@ -1,0 +1,14 @@
+name = "solagent-api"
+main = "workers/api-proxy/index.ts"
+compatibility_date = "2025-01-01"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "placeholder_replace_before_deploy"
+
+[[kv_namespaces]]
+binding = "WEBHOOKS"
+id = "placeholder_replace_before_deploy"
+
+[vars]
+HELIUS_RPC_URL = "https://rpc.helius.xyz"
