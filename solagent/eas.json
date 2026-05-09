@@ -4,7 +4,7 @@
     "preview": {
       "distribution": "internal",
       "android": { "buildType": "apk" },
-      "node": "20.19.2",
+      "node": "20.19.4",
       "cache": { "disabled": true }
     }
   },
